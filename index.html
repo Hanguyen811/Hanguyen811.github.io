@@ -1,0 +1,301 @@
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('nn.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("ll.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("bb.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">ASSIGNMENT</span>1</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  
+  <p>I am living in Ho Chi Minh city. My major is Digital Marketing, minor is Finance and this is the second year in RMIT University. 
+
+As I am an outgoing and active person, I really enjoy outdoor activities such as camping, jogging and also, sometimes I go snorkeling with my friends. Also, I occasionally spend time joining charity events in the East-West of Vietnam with my family. I have a great passion for travelling and reading books (including novels and comic books).  I would like to spend most of my free time with close friends and families because I believe that taking your time with people you love gives you positive energy every single day
+
+
+I become a student of RMIT Vietnam university since it has qualified, experienced academic lecturers, which provides to me a high-quality undergraduate program. Besides that, international learning environment and good facilities supporting for my study such as financial trading laboratory, extensive library, etc. are also the reasons why I choose RMIT. Last but not least, this university organizes frequently guest lectures, careers fairs, competitions, industry tours, and internships, which provides me more information about my future job and working experiences
+
+.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Thu Ha</b></p><br>
+      <img src="kk.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Although I am a student from school of business and management, I have huge interest in IT, especially topics about Augmented Reality, Virtual Reality and Artificial Intelligence. I enrolled this course because in the modern day and age, information technology plays an important role in a number of different fields like education, healthcare, marketing, security… and having knowledge about IT is extremely necessary for my future. After this course, I expect to have the foundation knowledge about IT and understand its application in our life. I have not much knowledge about this area, but I will put my best effort since I need a good GPA score to apply for my higher-education in Singapore. 
+
+In the future, my ideal job is become marketing manager in Taiger company. Taiger specializes in Knowledge Work Automation solutions. Headquartered in Singapore, this company help to Improve Operational Efficiencies for Financial Institutions, Insurance Companies and Government Organizations globally. This working position has attractive salary along with many good remuneration and good working environment. Besides that, i want to learn and work in Singapore as it has top education standards, efficient medical system and low crime rate. In order to qualify for this position, I need to have minimum bachelor's degree in Marketing, more than 5 years hands on experience on planning and executing B2B digital performance campaigns and expert practitioner in web and ad analytics platforms. To reach my goal, besides having expert skill in marketing, it requires knowledge about IT and it is also the reason why I took this course. This position also requires working experiences; thus, I will work for several marketing agencies before applying for this job.
+</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">50%</div>
+  </div>
+</div>
+
+
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY TEST RESULT</h3>
+  <p class="w3-center"><em>Here are the result of my Myers-Bring, Learning Style and Emotional Intelligence tests .<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="q.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="I have advocate personality. Advocate people have the tendency to helping others. Advocates will act with creativity, imagination, conviction, and sensitivity not to take advantages, but to create balance. They also find it easy to make friends with others, have talent of warm sensitive language, speaking in human terms, rather than with pure logic and fact.">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="b.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="I am a auditory learner, which means I learn by hearing and listening. It is easier for me to store information by the way it sounds and remember things when it heard than written down. ">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="c.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The EI test result indicate that I am very good in self-management. ">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="d.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Based on the result of 3 tests, I think a teammate with outgoing personality, has high responsibility, working together comfortably, not to stressful is suitable for me.  
+
+">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+<h3 class="w3-center">MY PROJECT IDEA</h3>
+  <p class="w3-center"><em>Including my Motivation; Description; Tools, Techniques , Skills required ; Outcomes.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="binh.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Currently, there are more than 12750 clinics in Vietnam and the overload of is still very popular, especially in big cities like Hanoi, Ho Chi Minh City, Da Nang ... Waiting and queuing for an hour is a constant obsession for people coming to the clinic. Illness plus long waiting time makes many people feel extremely tired. From that situation, I want to build and developed an app for booking a schedule at the clinic. This app provides two-way interaction between the clinic and the patient, in order to address the current crowds in the number order areas and waiting areas in clinic.">
+
+    </div>
+  
+<div class="w3-col m3">
+
+      <img src="hanh.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="This apps helps patients to schedule an appointment in advance to avoid waiting time. In the details, this app provides information about all clinics in Vietnam, including address, doctors, price for an hour of medical examination, available time for booking…  By providing that information, customers can easily find the nearest clinics and with suitable price for them. After that, customer will create an account by using email or their phone number. Next, customer will book the medial schedule in advance, which help them to reduce waiting time in the clinic. After booking, we will be sent customer the confirmation letter about the time, detailed information about doctor and a series number of the booking. Customers are allowed to pay by cash when finishing their treatment at the clinic or pay by  Visa, credit card, e-wallet. We also collect the feedback of customer in order to improve our services. This is the medical examination process:
+1.	Create an account 
+2.	Book appointment through the app
+3.	Customer: show the booking number for receptionist of the clinic
+4.	Customer:  examination with a scheduled doctor
+5.	App: record the feedback of patients
+Beside that service, we also provide the medical booking with family doctor for those who want to save their time or elderly people. However, the fee for this service is more expensive. About the business model, we will have the revenue by commission through each medical booking (10% each booking) and through advertising. 
+">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="khe.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Most app requires data base. For our medical booking apps, we need to collect the database about all the clinics in Vietnam and suggested doctors. 
+For the mobile app development, it is recommended that we should use Swift/Objective-C for iOS development and Java for Android development.
+Several open source mobile app development tools that i might consider such as BuildFire.js, Framework 7, Ionic Framework, jQuery,… 
+
+
+ Referred to as UI/UX, these skills are incredibly important for the end-user’s satisfaction since it is everything your audience sees and engages with on a digital platform. A digital experience is absolutely nothing without design, and a bad design can ruin everything.
+
+">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="nhot.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="This app help to solve the overcrowding situation at clinics, ensure quality of medical examination, treatment and patient safety. Besides that, it is also time-saving for patients.">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">THANK YOU FOR VIEWING </h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="oo.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Ho Chi Minh, VN<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> ID: S3753366<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: S3753366@gmail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
